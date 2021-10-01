@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+/* altri colori di sfondo */
+
 #main_color_1{
     background-color: #1f1f1f;
 }
@@ -20,3 +22,8 @@
     background-color: #00439c;
 }
 
+/* header */
+
+header #header_logo img{
+    width: 80px;
+}
