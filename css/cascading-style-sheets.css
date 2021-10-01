@@ -4,9 +4,8 @@
     padding: 0;
 }
 
-header{
-    position: sticky;
-    top: 0;
+body{
+    font-family: Arial, sans-serif;
 }
 
 /* altri colori di sfondo */
@@ -28,6 +27,11 @@ header{
 }
 
 /* header */
+
+header{
+    position: sticky;
+    top: 0;
+}
 
 header #header_logo img{
     width: 80px;
@@ -73,3 +77,22 @@ header #header_logo img{
 }
 
 /* main */
+
+#the_hero1 .container-fluid{
+    height: 600px;
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#the_hero1 img{
+    width: 220px;
+    margin-bottom: 30px;
+}
+
+#the_hero1 img{
+    width: 220px;
+}
