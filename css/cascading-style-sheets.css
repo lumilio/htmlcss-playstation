@@ -29,7 +29,7 @@ header #header_logo img{
 }
 
 #the_nav a{
-    color: black !important;
+    color: black;
 }
 
 .dropdown-toggle img{
@@ -44,11 +44,27 @@ header #header_logo img{
     display: none;
 }
 
-#nav_home:hover .chevron_hover{
+#the_nav a:hover{
+    color: #0070d1;
+}
+
+.nav-item > a:hover .chevron_hover{
     display: inline-block;
 }
 
-#nav_home:hover .chevron_solid{
+.nav-item > a:hover .chevron_solid{
     display: none;
 }
 
+#lente{
+    width: 20px;
+    margin-left: 20px;
+}
+
+
+
+#the_nav #right_side button{
+    background-color: #363636;
+    border-radius: 20px;
+    padding: 0 15px;
+}
