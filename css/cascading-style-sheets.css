@@ -27,3 +27,28 @@
 header #header_logo img{
     width: 80px;
 }
+
+#the_nav a{
+    color: black !important;
+}
+
+.dropdown-toggle img{
+    height: 11px;
+}
+ 
+.dropdown-toggle::after{
+    display: none;
+}
+
+.chevron_hover{
+    display: none;
+}
+
+#nav_home:hover .chevron_hover{
+    display: inline-block;
+}
+
+#nav_home:hover .chevron_solid{
+    display: none;
+}
+
