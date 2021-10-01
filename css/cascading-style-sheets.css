@@ -4,8 +4,19 @@
     padding: 0;
 }
 
-.clearfix::after{
-    content: '';
-    clear: both;
-    display: table;
+#main_color_1{
+    background-color: #1f1f1f;
 }
+
+#main_color_2{
+    background-color: #bebcbb;
+}
+
+#main_color_3{
+    background-color: #161c3b;
+}
+
+#main_color_4{
+    background-color: #00439c;
+}
+
