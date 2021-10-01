@@ -4,6 +4,11 @@
     padding: 0;
 }
 
+header{
+    position: sticky;
+    top: 0;
+}
+
 /* altri colori di sfondo */
 
 #main_color_1{
@@ -66,3 +71,5 @@ header #header_logo img{
     border-radius: 20px;
     padding: 0 15px;
 }
+
+/* main */
