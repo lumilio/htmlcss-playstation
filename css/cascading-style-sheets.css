@@ -163,7 +163,7 @@ header #header_logo img{
 }
 
 #hero_title1 p{
-    color: grey;
+    color: #727272;
     font-size: larger;
     margin: 15px 0;
 }
@@ -175,7 +175,7 @@ header #header_logo img{
 }
 
 #playstation_colonne p{
-    color: grey;
+    color: #727272;
     font-size: larger;
     margin: 15px 0;
 }
@@ -273,3 +273,21 @@ header #header_logo img{
 #game_cards2 p{
     width: 75%;
 }
+
+#game_cards2 img{
+    border-radius: 20px;
+}
+
+/* hero_title2 */
+
+#hero_title2 span{
+    color: #727272;
+    font-size: larger;
+}
+
+#hero_title2 h1{
+    font-size: 40px;
+    padding: 20px;
+    padding-top: 70px;
+}
+
