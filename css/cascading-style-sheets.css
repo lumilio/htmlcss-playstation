@@ -157,3 +157,17 @@ header #header_logo img{
     padding: 9px 15px;
     border: none;
 }
+
+/* device_cards1 */
+
+
+#device_cards1 .device_card {
+    width: 250px;
+}
+
+/* @media screen and (max-width:992px) {
+    #device_cards1 .device_card {
+        width: calc(100% / 4);
+    }
+} */
+
