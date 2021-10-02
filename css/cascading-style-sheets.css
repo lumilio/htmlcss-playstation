@@ -133,6 +133,10 @@ header #header_logo img{
     color: #0070d1;
 }
 
+#hero_title1 h1{
+    font-size: 40px
+}
+
 #hero_title1 p{
     color: grey;
     font-size: larger;
@@ -160,14 +164,11 @@ header #header_logo img{
 
 /* device_cards1 */
 
-
-#device_cards1 .device_card {
-    width: 250px;
+@media screen and (min-width:992px) {
+    #device_cards1 img {
+        width: 120px;
+        height: 120px;
+    }
 }
 
-/* @media screen and (max-width:992px) {
-    #device_cards1 .device_card {
-        width: calc(100% / 4);
-    }
-} */
 
