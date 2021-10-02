@@ -292,3 +292,59 @@ header #header_logo img{
     padding-top: 70px;
 }
 
+/* device_cards2 */
+
+#device_cards2 h5{
+    font-size: 30px;
+}
+
+#device_cards2 p{
+    color: #727272;
+}
+
+#device_cards2  a{
+    background-color: #0070d1;
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: 2px solid #0070d1; 
+    outline: 2px solid #0070d1;
+    transition: .3s;
+}
+
+#device_cards2  a:hover{
+    border: 2px solid white; 
+    outline: 2px solid #0070d1;
+    cursor: pointer;
+}
+
+/* banner1 */
+
+#banner1 #logo{ 
+    width: 300px;
+}
+
+#banner1 button{
+    color: #0070d1 !important; 
+    background-color: #d9dadc;
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: 2px solid #d9dadc; 
+    outline: 2px solid #d9dadc;
+    transition: .3s;
+}
+
+#banner1 button:hover{
+    border: 2px solid #bebcbb; 
+    outline: 2px solid #d9dadc;;
+    cursor: pointer;
+}
+
+/* hero_title3 */
+
+#hero_title3 span{
+    color: #727272;
+    margin-top: 20px;
+}
+
+/* box_sconti */
+
