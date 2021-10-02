@@ -78,6 +78,8 @@ header #header_logo img{
 
 /* main */
 
+/* the_hero1 */
+
 #the_hero1 .container-fluid{
     height: 600px;
     background-image: url(../img/jumbo-bg.png);
@@ -109,3 +111,6 @@ header #header_logo img{
     padding: 9px 15px;
     border: none;
 }
+
+/* game_cards1 */
+
