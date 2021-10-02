@@ -114,3 +114,15 @@ header #header_logo img{
 
 /* game_cards1 */
 
+#game_cards1 .row img{
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px 
+}
+
+#game_cards1 .row .special_pic{
+    border-radius: 20px;
+    padding: 4px;
+    border: 2px solid #0070d1;
+}
+
