@@ -135,6 +135,25 @@ header #header_logo img{
 
 #hero_title1 p{
     color: grey;
-    font-size: large;
+    font-size: larger;
     margin: 15px 0;
+}
+
+/* playstation_colonne */
+
+#playstation_colonne h1{
+    font-size: 35px;
+}
+
+#playstation_colonne p{
+    color: grey;
+    font-size: larger;
+    margin: 15px 0;
+}
+
+#playstation_colonne button{
+    background-color: #0070d1;
+    border-radius: 20px;
+    padding: 9px 15px;
+    border: none;
 }
