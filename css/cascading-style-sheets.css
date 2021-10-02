@@ -195,7 +195,6 @@ header #header_logo img{
     cursor: pointer;
 }
 
-
 /* device_cards1 */
 
 @media screen and (min-width:992px) {
@@ -216,4 +215,61 @@ header #header_logo img{
 
 #device_cards1 #special {
     border-bottom: 2px solid #0070d1 !important;
+}
+
+/* the_hero2 */
+
+
+#the_hero2 .container-fluid{
+    height: 600px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+#the_hero2 img{
+    width: 180px;
+    margin-bottom: 30px;
+}
+
+#the_hero2 .hero_paragraph{
+    font-size: 16px;
+}
+
+@media screen and (min-width:992px) {
+    #the_hero2 .hero_txt {
+        width: 350px
+    }
+}
+
+#the_hero2 .hero_txt button{
+    background-color: #cd3d0f;
+    border-radius: 20px;
+    padding: 7px 13px;
+    border: 2px solid #cd3d0f; 
+    outline: 2px solid #cd3d0f; 
+    transition: .3s; 
+}
+
+#the_hero2 .hero_txt button:hover{
+    border: 2px solid black; 
+    outline: 2px solid #cd3d0f;
+    cursor: pointer;
+}
+
+/* game_cards2 */
+
+#game_cards2 h1{
+    font-size: 35px;
+}
+
+#game_cards2 h2{
+    font-size: 22px;
+}
+
+#game_cards2 p{
+    width: 75%;
 }
