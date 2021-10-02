@@ -73,10 +73,11 @@ header #header_logo img{
 #the_nav #right_side button{
     background-color: #363636;
     border-radius: 20px;
-    padding: 0 11px;
+    padding:  0px 10px;
     border: 2px solid #363636; 
     outline: 2px solid #363636;
     transition: .3s;
+    margin-left: 10px;
 }
 
 #the_nav #right_side button:hover{
