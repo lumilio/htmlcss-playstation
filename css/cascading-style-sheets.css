@@ -74,7 +74,15 @@ header #header_logo img{
     background-color: #363636;
     border-radius: 20px;
     padding: 0 15px;
+    margin: 30px;
+    border: 4px solid red;
+    border: 2px solid blue;
+    border-style: double;
 }
+
+
+
+
 
 /* main */
 
@@ -117,13 +125,20 @@ header #header_logo img{
 #game_cards1 .row img{
     border-radius: 20px;
     padding: 4px;
-    border: 2px 
+    border: 2px;
+    transition: 0.3s;
+    border: 2px solid white;
 }
 
 #game_cards1 .row .special_pic{
     border-radius: 20px;
     padding: 4px;
     border: 2px solid #0070d1;
+}
+
+#game_cards1 .row img:hover{
+    margin-top: -10px !important;
+    cursor: pointer;
 }
 
 /* hero_title1 */
@@ -171,4 +186,15 @@ header #header_logo img{
     }
 }
 
+#device_cards1 .card{
+    transition: 0.7s;
+}
 
+#device_cards1 .card:hover{
+    opacity: 1 !important;
+}
+
+
+#device_cards1 #special {
+    border-bottom: 2px solid #0070d1 !important;
+}
