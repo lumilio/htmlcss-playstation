@@ -348,3 +348,27 @@ header #header_logo img{
 
 /* box_sconti */
 
+/* banner2 */
+
+#banner2 #logo{ 
+    width: 300px;
+}
+
+#banner2 button{
+    color: black !important; 
+    background-color: #d9dadc;
+    border-radius: 20px;
+    padding: 4px 10px;
+    border: 2px solid #d9dadc; 
+    outline: 2px solid #d9dadc;
+    transition: .3s;
+}
+
+#banner2 button:hover{
+    border: 2px solid #161c3b; 
+    outline: 2px solid #d9dadc;;
+    cursor: pointer;
+}
+
+/* social */
+
