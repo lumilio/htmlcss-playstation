@@ -128,3 +128,13 @@ header #header_logo img{
 
 /* hero_title1 */
 
+#hero_title1 span{
+    font-size: small;
+    color: #0070d1;
+}
+
+#hero_title1 p{
+    color: grey;
+    font-size: large;
+    margin: 15px 0;
+}
