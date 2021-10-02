@@ -93,6 +93,19 @@ header #header_logo img{
     margin-bottom: 30px;
 }
 
-#the_hero1 img{
-    width: 220px;
+#the_hero1 .hero_paragraph{
+    font-size: large;
+}
+
+@media screen and (min-width:992px) {
+    #the_hero1 .hero_paragraph {
+        width: 440px
+    }
+}
+
+#the_hero1 .hero_txt button{
+    background-color: #cd3d0f;
+    border-radius: 20px;
+    padding: 9px 15px;
+    border: none;
 }
