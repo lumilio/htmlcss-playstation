@@ -120,7 +120,7 @@ header #header_logo img{
     display: none;  
 }
 
-.nav-item > #nav_giochi:hover + #bonus_menu1{     /*-------------------------------- problema */
+#the_nav:hover #bonus_menu1{    /*----------------- problema selettore */
     display: block;
 }
 
