@@ -117,10 +117,11 @@ header #header_logo img{
 
 #bonus_menu1{
     position: absolute;
-    display: none;  
+    display: none;
+    width: 100vw;  
 }
 
-#the_nav:hover #bonus_menu1{    /*----------------- problema selettore */
+#nav_hardwere:hover + #bonus_menu1{    /*----------------- problema selettore */
     display: block;
 }
 
