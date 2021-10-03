@@ -372,6 +372,10 @@ header #header_logo img{
 
 /* social */
 
+#social img:hover{
+    cursor: pointer;
+}
+
 /* footer */
 
 footer #play_logo{
