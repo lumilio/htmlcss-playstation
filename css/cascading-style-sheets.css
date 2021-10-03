@@ -87,9 +87,23 @@ header #header_logo img{
     cursor: pointer;
 }
 
+
+/* bonus dropdown-menu */
+
 .bonus_menu1{
- width: 100%;
+    position: absolute;
+    width: 100vw;
+    display: none;
+    
 }
+
+.bonus_menu1 hr{
+    color: grey;
+}
+
+.bonus_menu1 .card:hover{
+    box-shadow: 0px 0px 18px #bebcbb;
+}    
 
 .bonus_menu1 ul li::marker {
     color: #0070d1;
@@ -101,6 +115,7 @@ header #header_logo img{
 
 .bonus_menu1 ul li span a{
     text-decoration: none;
+    color: black;
 }
 
 .menu_pic{
