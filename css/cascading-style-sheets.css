@@ -87,6 +87,26 @@ header #header_logo img{
     cursor: pointer;
 }
 
+.bonus_menu1{
+ width: 100%;
+}
+
+.bonus_menu1 ul li::marker {
+    color: #0070d1;
+}
+
+.bonus_menu1 ul li span {
+    left: -30px;
+}
+
+.bonus_menu1 ul li span a{
+    text-decoration: none;
+}
+
+.menu_pic{
+    width: 70px;
+}
+
 /* main */
 
 /* the_hero1 */
