@@ -203,12 +203,28 @@
                                 </ul>
                                 <div id='right_side' class="d-flex my-2 my-lg-0">
                                     <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                                        <li class="nav-item dropdown">
-                                            <a id='nav_my' class="nav-link dropdown-toggle" href="#">
+                                        <li class="nav-item dropdown position-static">
+                                            <a id='nav_my' class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                             My Playstation 
                                                 <img class="chevron_solid m-1" src="img/chevron-down-solid.svg" alt="">
                                                 <img class="chevron_hover m-1" src="img/chevron-down-solid-hover.svg" alt="">
                                             </a>
+                                            <div id="bonus_menu1" class="dropdown-menu w-100" aria-labelledby="navbarDropdown">
+                                                <div class="d-flex justify-content-center flex-wrap">
+                                                    <div class="card border-0 mx-2 d-flex flex-column align-items-center p-3">
+                                                        <img class="menu_pic" src="img/play-menu-ico.png" alt="">
+                                                        <span>PS1</span>
+                                                    </div>
+                                                    <div class="card border-0 mx-2 d-flex flex-column align-items-center p-3">
+                                                        <img class="menu_pic" src="img/play-menu-ico.png" alt="">
+                                                        <span>PS2</span>
+                                                    </div>
+                                                    <div class="card border-0 mx-2 d-flex flex-column align-items-center p-3">
+                                                        <img class="menu_pic" src="img/play-menu-ico.png" alt="">
+                                                        <span>PS3</span>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </li>
                                     </ul>   
                                     <button class="btn my-2 my-sm-0 text-white" type="submit">Accedi</button>

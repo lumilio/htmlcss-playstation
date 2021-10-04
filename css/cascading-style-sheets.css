@@ -115,17 +115,16 @@ header #header_logo img{
     width: 70px;
 }
 
-
 #bonus_menu1{
     top: unset!important;
     border:none;
 }
 
-#nav_giochi img{
+.nav-link img{
     transition: 0.3s;
 }
 
-#nav_giochi:focus img{
+.nav-link:focus img{
     transform: rotate(-180deg);
 }
 
