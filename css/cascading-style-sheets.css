@@ -116,16 +116,30 @@ header #header_logo img{
 }
 
 #bonus_menu1{
-    position: absolute;
-    display: none;
-    width: 100vw;  
+    left: 0;
+    width: 100vw;
+    top: unset!important;
+    background-color: #f8f9fa;
+    border:none;
+    margin-top: .5rem !important;  
 }
 
-#the_nav:hover #bonus_menu1{    /*----------------- problema selettore */
-    display: block;
+#bonus_menu1{
+    left: 0;
+    width: 100vw;
+    top: unset!important;
+    background-color: #f8f9fa;
+    border:none;
+    margin-top: .5rem !important;  
 }
 
+#nav_giochi img{
+    transition: 0.3s;
+}
 
+#nav_giochi:focus img{
+    transform: rotate(-180deg);
+}
 
 
 
