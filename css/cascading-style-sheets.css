@@ -88,7 +88,7 @@ header #header_logo img{
 }
 
 
-/* bonus dropdown-menu */    /* -------------------------------------------- */
+/* bonus dropdown-menu */  
 
 #bonus_menu1 hr{
     color: grey;
@@ -117,12 +117,8 @@ header #header_logo img{
 
 
 #bonus_menu1{
-    left: -145px;
-    width: 100vw;
     top: unset!important;
-    background-color: white;
     border:none;
-    margin-top: .5rem !important; 
 }
 
 #nav_giochi img{
