@@ -121,9 +121,21 @@ header #header_logo img{
     width: 100vw;  
 }
 
-#nav_giochi:hover + #bonus_menu1{    /*----------------- problema selettore */
+#the_nav:hover #bonus_menu1{    /*----------------- problema selettore */
     display: block;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* main */
 
