@@ -117,7 +117,7 @@ header #header_logo img{
 
 
 #bonus_menu1{
-    left: 0;
+    left: -145px;
     width: 100vw;
     top: unset!important;
     background-color: white;
